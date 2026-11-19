@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="88" viewBox="0 0 420 88" role="img" aria-labelledby="finoraTitle finoraDesc">
+  <title id="finoraTitle">Finora</title>
+  <desc id="finoraDesc">Finora logo with an upward-trending bar chart symbol and wordmark.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Ascending market bars -->
+    <path d="M14 67V54" stroke="#2563EB" stroke-width="9"/>
+    <path d="M32 67V45" stroke="#2563EB" stroke-width="9"/>
+    <path d="M50 67V35" stroke="#2563EB" stroke-width="9"/>
+    <!-- Momentum line and arrow -->
+    <path d="M12 42L28 31L41 35L62 13" stroke="#14243A" stroke-width="5.5"/>
+    <path d="M48 13H62V27" stroke="#14243A" stroke-width="5.5"/>
+  </g>
+  <text x="91" y="61" fill="#14243A" font-family="Inter, Manrope, Arial, sans-serif" font-size="49" font-weight="700" letter-spacing="-1.8">Finora</text>
+</svg>
