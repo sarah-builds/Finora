@@ -3,22 +3,26 @@ import React from 'react'
 export default function Hero() {
   return (
     <section className='container-fluid' id="supporthero">
-        <div className='p-5 mt-5 mb-5' id="supportwraper">
-           <h4>Support Portal</h4>
-        <a href="">Track Tickets</a>
-      </div>
-      <div className="row p-5 m-3">
-        <div className="col-6 p-3">
-          <h1 className="fs-3">
-            Search for an answer or browse help topics to create a ticket
-          </h1>
-          <input placeholder="Eg. how do I activate F&O" />
-          <br />
-          <a href="">Track account opening</a>
-          <a href="">Track segment activation</a>
-          <a href="">Intraday margins</a>
-          <a href="">Kite user manual</a>
-        </div>
+       <div className="p-4" id="supportwraper">
+  <h4>Support Portal</h4>
+  <a href="">Track Tickets</a>
+</div>
+
+<div className="row px-5 mx-5 py-3">
+  <div className="col-6 px-3">
+    <h1 className="fs-3 mb-3">
+      Search for an answer or browse help topics to create a ticket
+    </h1>
+
+    <input placeholder="Eg. how do I activate F&O" />
+
+    <div className="d-flex flex-wrap gap-3 mt-2">
+      <a href="">Track account opening</a>
+      <a href="">Track segment activation</a>
+      <a href="">Intraday margins</a>
+      <a href="">Finora user manual</a>
+    </div>
+  </div>
         <div className="col-6 p-3">
           <h1 className="fs-3">Featured</h1>
           <ol>
